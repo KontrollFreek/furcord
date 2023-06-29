@@ -7,11 +7,10 @@
  * @authorLink https://twitter.com/KontrollFreek
  * @donate https://ko-fi.com/KontrollFreek
  * @website https://github.com/KontrollFreek/furcord
- * @source https://github.com/KontrollFreek/furcord
+ * @source https://raw.githubusercontent.com/KontrollFreek/furcord/main/furcord.plugin.js
  */
 
 let DirectMessages = document.querySelector('[aria-label="Direct Messages"] div')
-let AppSpinner = document.querySelector('[data-testid="app-spinner"]')
 
 module.exports = meta => ({
     start() {        
